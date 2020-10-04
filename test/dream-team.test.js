@@ -176,7 +176,7 @@ describe('Dream team', () => {
       assert.equal(createDreamTeam({'foo': 'bar'}), false);
     });
     it.optional('should ignore non-string values', () => {
-      assert.equal(createDreamTeam([
+      assert.equal(createDreamTeam([ 
         'Amelia',
         null,
         undefined,
